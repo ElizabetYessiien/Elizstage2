@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap"
+      rel="stylesheet"
+    />
+    <title>Print name program</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: rgb(245, 240, 237);
+        font-family: "Tenali Ramakrishna", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .container{
+          background:rgb(22, 51, 51);
+          height:100vh;
+         padding:2rem;
+      }
+
+      h1 {
+        color:rgb(228, 134, 13);
+        font-size: 4rem;
+      }
+
+      p {
+          color:white;
+        font-size: 2rem;
+      }
+      a{
+          text-decoration:none;
+          font-size:1rem;
+          color: maroon;
+          display: block;
+          margin-top: 55%;
+          margin-left: 40%;
+          color:white;
+      }
+
+      img{
+          height:50px;
+          width:50px;
+          
+      }
+    </style>
+
+    <div class="container">
+      <h1>Program to print my name</h1>
+      <p id="name-here"></p>
+      <a href="https://internship.zuri.team/" target="_blank"
+        > Powered by Zuri Internship <img src="Zuri.jpg" alt=""
+      /></a>
+    </div>
+
+    <script>
+      const nameHere = document.getElementById("name-here");
+
+      let nameString = (name) => {
+        return `Hi, I am ${name}`;
+      };
+      let name = nameString("Elizabet Yessiien");
+      nameHere.innerHTML = name;
+    </script>
+  </body>
+</html>
