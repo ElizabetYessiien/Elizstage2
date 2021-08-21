@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #00022e;
+ 
 }
 
 .main-content {
@@ -26,7 +26,7 @@ body {
 }
 .right-section {
   grid-column: span 5;
-  background-color: #f7f7f7;
+ 
   height: 100%;
 }
 
