@@ -7,6 +7,113 @@
 }
 
 
+.my-picture {
+  width: 300px;
+  margin: 1rem;
+}
+.my-picture img {
+  width: 100%;
+  border-radius: 22% 78% 33% 67% / 30% 30% 70% 70%;
+}
+.about-me {
+  margin: 1rem 0;
+  padding: 0.6rem;
+}
+.me-card {
+  width: 340px;
+  padding: 1rem;
+  margin: auto;
+  box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #247afd;
+  text-align: end;
+  margin-bottom: 2rem;
+  letter-spacing: 0.4rem;
+}
+
+.info-me {
+  font-weight: 800;
+  text-align: justify;
+  line-height: 2rem;
+  
+  color: #ff073a;
+}
+.tech-stack {
+  color: #247afd;
+}
+
+.color {
+  font-size: 0.8rem;
+}
+
+.tech-stack {
+  font-weight: 800;
+  margin: 2rem 0;
+}
+
+.stack {
+  margin: 2rem;
+}
+.stack,
+.color {
+  color: #fddc5c;
+  list-style: none;
+  letter-spacing: 0.4rem;
+}
+
+.stack-two {
+  margin-left: 4rem;
+}
+
+.stack-three {
+  margin-left: 6rem;
+}
+
+.stack-four {
+  margin-left: 8rem;
+}
+
+
+
+.contact-icon
+ {
+  width: 50px;
+  height: 50px;
+  border-radius: 22% 78% 33% 67% / 30% 30% 70% 70%;
+  box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
+  cursor: pointer;
+}
+.contact-icon {
+  margin-left: 1rem;
+  color: #fddc5c;
+  background: #ff073a;
+
+  position: relative;
+}
+
+.contact-icon i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-60%, -50%);
+  transition: color 1s linear;
+}
+
+.contact-icon i:hover {
+  color: #247afd;
+}
+
+
+
+
+
+
+
+
+
 
 .main-content {
   min-height: 100vh;
@@ -25,8 +132,9 @@
 .right-section {
   grid-column: span 5;
  
-  height: 100%;
 }
+
+
 
 .left-content {
   padding: 2rem 3rem;
@@ -47,16 +155,17 @@
 }
 
 .name {
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: #247afd;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding: 1.2rem 0;
+  padding: 1.1rem 0;
 }
 
 .career {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
+ 
   color: #fddc5c;
   text-align: center;
   text-transform: uppercase;
@@ -65,31 +174,18 @@
 }
 
 .main-title {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #f7f7f7ec;
   padding-top: 10rem;
 }
 
-.contact-info ul {
-  padding-top: .9rem;
+.contact {
+  padding: 2rem;
+ 
 }
 
-.contact-info ul li {
-  padding: 0.4rem 0;
-  display: flex;
-  align-items: center;
-  color: #718096;
-}
-.contact-info ul li i {
-  padding-right: 1rem;
-  font-size: 1.2rem;
-  border-radius: 22% 78% 33% 67% / 30% 30% 70% 70%;
-  box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
-  position: relative;
-  
-}
 
 .skills-section ul {
   padding-top: 2rem;
@@ -117,21 +213,18 @@
 .js-progress {
   width: 70%;
 }
-.ps-progress {
-  width: 90%;
-}
-.js-progress {
+.cs-progress {
   width: 90%;
 }
 .react-progress {
   width: 80%;
 }
-.vue-progress {
-  width: 50%;
+
+.vue-progress{
+  width:50%;
 }
-.n-progress {
-  width: 45%;
-}
+
+
 
 .skill-title {
   text-transform: uppercase;
@@ -165,7 +258,7 @@
 
 .para {
   line-height: 1.6rem;
-  color: #718096;
+  color: #112544;
   font-size: 1.1rem;
  
 }
@@ -211,17 +304,18 @@
   left: 0;
 }
 
-.hng {
+#hng {
+  font-size:.5rem;
   margin-top: 4rem;
   padding: 2rem;
-  color: #fddc5c;
+  color: #247afd;
 }
 .hng-img {
   width: 5rem;
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
-a {
+a, .location, .phone {
   text-decoration: none;
   color: #fddc5c;
 }
